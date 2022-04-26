@@ -3,57 +3,60 @@ body{
 }
 
 a:link, a:visited{
-	color: rgb(0, 29, 255);
+	color: rgba(212, 152, 186, 1);
 	text-decoration: none;
 	}
 a:hover {
-	color: rgb(74, 255, 0);
+	color: rgba(198, 153, 212, 1);
 	text-decoration: underline;
 	}
 
 a:active{
-	color: rgb(255, 54, 235);
+	color: rgba(151, 154, 212, 1);
 	text-decoration: underline;
 	}
 
 .links-menu{
-	width: 100%;
-	text-align: center;
-	bottom: 0;
+	text-align: left;
+	top: 1.5rem;
 	display: block;
 	position: fixed;
-	left: 50%;
-	transform: translate(-50%, 0);
 	padding: 1rem;
 	z-index: 100;
+	font-size: 12px;
 }
 
 .page-name{
-	width: 100%;
-	text-align: center;
+	text-align: left;
 	top: 0;
 	display: block;
-	position: relative;
-	left: 50%;
-	transform: translate(-50%, 0);
+	position: fixed;
 	padding: 1rem;
-	font-size: 38px;
+	z-index: 100;
+	font-size: 18px;
+	color: black;
 }
 
-.image-object-left{
+.image-object{
 	position: relative;
 	top: 50%;
 	left: 50%;
-	transform: translate(-110%, 30%);
-	width: 21rem;
-	height: 30rem;
+	transform: translate(-50%, 0%);
+	padding-top: 2rem;
+	height: 60rem;
+	max-width: 75%;
 	object-fit: cover;
 	box-sizing: border-box;
 }
 
 .highlight{
-	color: rgb(255, 54, 235);
+	color: rgba(151, 154, 212, 1);
 	text-decoration: underline;
+}
+
+.section-head{
+	font-size: 15px;
+	color: black;
 }
 
 .arrow {
