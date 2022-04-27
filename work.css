@@ -84,6 +84,15 @@ a:active{
 	font-size: 14px;
 }
 
+.fruit-preserves-text{
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 14px;
+	z-index: 1000;
+}
+
 .arrow {
 	position: absolute;
 	border: solid black;
