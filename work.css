@@ -1,0 +1,94 @@
+body{
+	background-color: white;
+}
+
+a:link, a:visited{
+	color: rgba(212, 152, 186, 1);
+	text-decoration: none;
+	}
+a:hover {
+	color: rgba(198, 153, 212, 1);
+	text-decoration: underline;
+	}
+
+a:active{
+	color: rgba(151, 154, 212, 1);
+	text-decoration: underline;
+	}
+
+.links-menu{
+	text-align: left;
+	top: 1.5rem;
+	display: block;
+	position: fixed;
+	padding: 1rem;
+	z-index: 100;
+	font-size: 12px;
+}
+
+.page-name{
+	text-align: left;
+	top: 0;
+	display: block;
+	position: fixed;
+	padding: 1rem;
+	z-index: 100;
+	font-size: 18px;
+	color: black;
+}
+
+.image-object{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	padding-top: 2rem;
+	padding-left: 2rem;
+	height: 60rem;
+	max-width: 75%;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+
+.highlight{
+	color: rgba(151, 154, 212, 1);
+	text-decoration: underline;
+}
+
+.section-head{
+	font-size: 15px;
+	color: black;
+}
+
+.project-info{
+	text-align: right;
+	right: 0;
+	bottom: 1.5rem;
+	display: block;
+	position: fixed;
+	padding: 1rem;
+	z-index: 100;
+	font-size: 14px;
+}
+
+.arrow {
+	position: absolute;
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	right: 0;
+	padding: 1rem;
+}
+
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+ 	left: 0;
+	padding: 1rem;
+}
