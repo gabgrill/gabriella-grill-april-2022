@@ -24,6 +24,7 @@ a:active{
 	margin: 1rem;
 	z-index: 100;
 	font-size: 12px;
+	width: 14rem;
 }
 
 .page-name{
@@ -36,6 +37,7 @@ a:active{
 	font-size: 18px;
 	color: black;
 	font-weight: bold;
+	width: 14rem;
 }
 
 .image-object{
@@ -45,7 +47,7 @@ a:active{
 	transform: translate(-50%, 0%);
 	padding-top: 2rem;
 	padding-left: 2rem;
-	height: 60rem;
+	height: auto;
 	max-width: 75%;
 	object-fit: cover;
 	box-sizing: border-box;
@@ -61,24 +63,8 @@ a:active{
 	color: black;
 }
 
-.arrow {
-	position: absolute;
-	border: solid black;
-	border-width: 0 3px 3px 0;
-	display: inline-block;
-	padding: 3px;
-}
-
-.right {
-	transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
-	right: 0;
-	padding: 1rem;
-}
-
-.left {
-	transform: rotate(135deg);
-	-webkit-transform: rotate(135deg);
- 	left: 0;
-	padding: 1rem;
-}
+@media (max-width: 480px){
+	.image-object{
+		z-index: 0;
+		opacity: 50%;
+	}
