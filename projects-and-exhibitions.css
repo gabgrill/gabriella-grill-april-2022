@@ -81,6 +81,18 @@ a:active{
 	max-width: 14%;
 }
 
+.project-info-3mph{
+	text-align: left;
+	right: 0;
+	top: 1rem;
+	display: block;
+	position: absolute;
+	max-width: 37%;
+	padding: 1rem;
+	z-index: 100;
+	font-size: 14px;
+}
+
 @media (max-width: 1670px){
 	.main{
 	width: 65%;
