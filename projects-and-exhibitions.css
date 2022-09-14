@@ -45,7 +45,7 @@ a:active{
 	position: absolute;
 }
 
-.image-object{
+.image-object-3mph{
 	position: relative;
 	padding: 2rem;
 	max-height: 100%;
@@ -54,6 +54,18 @@ a:active{
 	left: 50%;
 	transform: translate(-75%, 0%);
 	object-fit: cover;
+	box-sizing: border-box;
+}
+
+.image-object{
+	position: relative;
+	padding: 2rem;
+	max-height: 100%;
+	width: auto;
+	max-width: 100%;
+	object-fit: cover;
+	left: 50%;
+	transform: translate(-50%, 0%);
 	box-sizing: border-box;
 }
 
@@ -68,17 +80,15 @@ a:active{
 }
 
 .project-info{
-	text-align: left;
+	text-align: right;
 	right: 0;
+	bottom: 0;
 	display: block;
-	position: relative;
-	left: 50%;
-	transform: translate(75%, 0%);
-	padding: 2rem;
-	padding-left: 0;
+	position: fixed;
+	max-width: 13%;
+	padding: 1rem;
 	z-index: 100;
 	font-size: 14px;
-	max-width: 14%;
 }
 
 .project-info-3mph{
@@ -91,6 +101,20 @@ a:active{
 	padding: 1rem;
 	z-index: 100;
 	font-size: 14px;
+}
+
+.text-contact-container{
+	padding-right: 2rem;
+	padding-left: 2rem;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.contact-text{
+	font-size: 15px;
 }
 
 @media (max-width: 1670px){
